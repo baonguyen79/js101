@@ -70,24 +70,22 @@
 // }
 // // for loop that pushes the index to an array for 5 times  console.log (array) \\ [0,1,2
 
-// var outArray = [];
+var outArray = [];
 
-// for (var i = 0; i<5; i++) {
-// 	outArray.push(i);
-// }
-// console.log(outArray);
-// // for loop that starts at 100 and divides by 2 each time 3 times = 100,50,25
+for (var i = 0; i<5; i++) {
+	outArray.push(i);
+}
+console.log("array:", outArray);
+// for loop that starts at 100 and divides by 2 each time 3 times = 100,50,25
 
-// for (i = 100; I<15; i/=2)
-// {
-//  console.log(i);
+var number = 100;
 
-// }
-// var a=0;
-var scores = [82, 71, 95, 55, 98, 69, 72, 78, 84, 64, 58, 87];
-for (var i=0; i<scores.length; i++)
-	{}
-console.log(i + scores[i]);
+for (var i = 0; i<3; i++)
+{
+  console.log("out: ", number);
+  number /= 2;
+
+}
 
 
 
